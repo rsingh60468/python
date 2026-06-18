@@ -17,8 +17,8 @@
 # list.pop(2)
 # print(list)
 
-# tup = (2, 1, 3, 1)
-# print(tup[2])
+tup = (2, 1, 3, 1)
+print(tup[2])
 
 # tup = (1,)
 # print(type(tup))
@@ -43,6 +43,6 @@
 # tup = ("c", "d", "a", "a", "b", "b", "a")
 # print(tup.count("a"))
 
-list = ["c", "d", "a", "a", "b", "b", "a"]
-list.sort()
-print(list)
+# list = ["c", "d", "a", "a", "b", "b", "a"]
+# list.sort()
+# print(list)
