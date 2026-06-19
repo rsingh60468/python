@@ -47,8 +47,16 @@
 # calc_fact(5)
 # calc_fact(6)
 
-def conv(usd):
-    inr = usd*94.43
-    print(usd, "USD =",inr, "INR")
+# def conv(usd):
+#     inr = usd*94.43
+#     print(usd, "USD =",inr, "INR")
 
-conv(100)
+# conv(100)
+
+def check(num):
+    if(num%2 == 0):
+        print("EVEN")
+    else:
+        print("ODD")
+    
+check(47)
