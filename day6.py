@@ -53,10 +53,18 @@
 
 # conv(100)
 
-def check(num):
-    if(num%2 == 0):
-        print("EVEN")
-    else:
-        print("ODD")
+# def check(num):
+#     if(num%2 == 0):
+#         print("EVEN")
+#     else:
+#         print("ODD")
     
-check(47)
+# check(47)
+
+def show(n):
+    if(n ==0):
+        return
+    print(n)
+    show(n-1)
+
+show(4)
