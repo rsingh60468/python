@@ -27,11 +27,13 @@
 # again = f.read() # file can only be read once 
 # print(again)
 
-f = open("demo.txt", "w") #overwites previous data
-f.write("this is a new d\n")
+# f = open("demo.txt", "w") #overwites previous data
+# f.write("this is a new data\n")
 
-f = open("demo.txt", "a")
-f.write("this is new line")
+# f = open("demo.txt", "a")
+# f.write("this is new line")
 
-f = open("sample.txt", "w") #creates new file if not already exists
-f.close()
+# f = open("sample.txt", "w") #creates new file if not already exists
+# f.close()
+
+#with syntex
