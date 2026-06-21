@@ -103,4 +103,4 @@ def print_list(list, idx=0):
 
 fruits=["mango", "banana", "apple", "litchi"]
 
-print_list(fruits)
+print_list(fruits) 
