@@ -88,14 +88,14 @@
 
 # check_for_line()
 
-# count = 0
-# with open("nums.txt", "r") as f :
-#     data = f.read()
-#     print(data)
+count = 0
+with open("nums.txt", "r") as f :
+    data = f.read()
+    print(data)
 
-#     nums = data.split(",")
-#     for val in nums:
-#         if(int(val) % 2 == 0):
-#             count += 1
+    nums = data.split(",")
+    for val in nums:
+        if(int(val) % 2 == 0):
+            count += 1
 
-# print(count)
+print(count)
