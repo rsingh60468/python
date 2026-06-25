@@ -75,3 +75,50 @@
 # plus.reverse()
 # print(plus)
 
+n = 19
+# arr = []
+# while n > 0:
+#     arr.append(n % 10)
+#     n = n // 10
+
+# arr.reverse()
+
+
+# def sqr(arr):
+#     sm = 0
+#     for el in arr:
+#         sm = sm + el**2
+#         print (sm)
+
+# print(sqr(arr))
+
+def sq(num):
+    if(num == 1):
+        return True
+    arr = []
+    while num > 0:
+        arr.append(num % 10)
+        num = num // 10
+    
+    for el in arr:
+        num = num + (el**2)
+
+    seen = set()
+    before = len(seen)
+    seen.add(num)
+
+    if len(seen) == before:
+        return False
+    # seen = set()
+
+    # while n != 1:
+    #     if n in seen:
+    #         return False
+
+    #     seen.add(n)
+    # print(seen)
+    return sq(num)
+
+ans = sq(8)
+print(ans)
+sq(8)
