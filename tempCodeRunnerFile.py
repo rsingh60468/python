@@ -1,2 +1,0 @@
-
-#     for j in range(i+1, len(nums)+1):
