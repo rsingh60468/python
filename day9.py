@@ -59,18 +59,19 @@
 # digit.reverse()
 # print(digit)
 
-arr = [9, 9, 9, 9]
-result = 0
-for num in arr:
-    result = result * 10 + num
-print(result)
+# arr = [9, 9, 9, 9]
+# result = 0
+# for num in arr:
+#     result = result * 10 + num
+# print(result)
 
-result += 1
-plus = []
+# result += 1
+# plus = []
 
-while result > 0:
-    plus.append(result % 10)
-    result = result // 10
+# while result > 0:
+#     plus.append(result % 10)
+#     result = result // 10
 
-plus.reverse()
-print(plus)
+# plus.reverse()
+# print(plus)
+
