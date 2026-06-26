@@ -42,7 +42,7 @@
 #             count +=1
 # print(count)
 
-#large integer + 1
+#Plus one
 
 # digit = [1, 2, 4]
 
