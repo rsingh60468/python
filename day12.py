@@ -8,3 +8,8 @@ for el in pattern:
     if n != 0: # if el in word
         count += 1
 print(count)
+
+s = "abcabc"
+for i in range(len(s)):
+    for j in range(i+1, len(s)+1):
+        print(s[i:j])
